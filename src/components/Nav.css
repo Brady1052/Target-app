@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  padding: 1.5rem 3.6rem;
+}
+button {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+}
+
+.nav-left {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.logo {
+  max-width: 4.7rem;
+}
