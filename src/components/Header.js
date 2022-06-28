@@ -4,20 +4,17 @@ function Header() {
   return (
     <div className="header-container">
       <div className="header-store-info">
-        <p>
-          {' '}
+        <a>
           My Store <span id="header-store-info-dot">• </span>Closes At 10pm
-        </p>
-        <p id="store-name">
-          Heath <span></span>
-        </p>
+          <p id="store-name">Heath</p>
+        </a>
       </div>
       <div className="header-nav">
-        <p>Registry</p>
-        <p>Weekly Ad</p>
-        <p>RedCard</p>
-        <p>Target Circle</p>
-        <p>Find Stores</p>
+        <a>Registry</a>
+        <a>Weekly Ad</a>
+        <a>RedCard</a>
+        <a>Target Circle</a>
+        <a>Find Stores</a>
       </div>
     </div>
   );
