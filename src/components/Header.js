@@ -4,8 +4,9 @@ function Header() {
   return (
     <div className="header-container">
       <div className="header-store-info">
-        <a>
-          My Store <span id="header-store-info-dot">• </span>Closes At 10pm
+        <a className="header-left-anchor">
+          <span className="header-my-store"> My Store</span>
+          <span id="header-store-info-dot"> • </span> Closes At 8pm
           <p id="store-name">Heath</p>
         </a>
       </div>

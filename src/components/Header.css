@@ -5,16 +5,34 @@
   background-color: rgba(204, 0, 0);
   color: white;
   font-size: 1.2rem;
-  padding: 0.7rem 4rem;
+  padding: 0.66rem 4rem;
 }
+
+#header-left-anchor {
+  position: relative;
+}
+
 .header-store-info {
   color: rgb(247, 247, 247);
+}
+
+.header-my-store {
+  margin-right: 0.7rem;
+}
+
+#header-store-info-dot {
+  position: absolute;
+  left: 9.06rem;
+  top: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .header-nav {
   display: flex;
   gap: 2.7em;
 }
+
 #store-name {
   font-size: 1.4rem;
   font-weight: 700;
