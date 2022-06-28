@@ -38,7 +38,7 @@
   font-weight: 700;
 }
 
-a:hover {
+.header-store-info:hover {
   cursor: pointer;
   text-decoration: underline;
 }

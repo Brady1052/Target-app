@@ -1,7 +1,7 @@
 import './Nav.css';
-import targetLogo from '../images/target-logo.png';
-import magnifyingGlass from '../images/target-magnifying-glass.png';
-import shoppingCart from '../images/target-shopping-cart.png';
+import targetLogo from '../images-header/target-logo.png';
+import magnifyingGlass from '../images-header/target-magnifying-glass.png';
+import shoppingCart from '../images-header/target-shopping-cart.png';
 function Nav() {
   return (
     <div className="nav-container">

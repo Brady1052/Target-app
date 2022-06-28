@@ -4,9 +4,11 @@ export default function ProductHeader() {
   return (
     <div className="product-header-container">
       <p className="product-path">
-        <span>Target</span> / <span>Patio {'&'} Garden</span> /{' '}
-        <span>Patio Furniture</span> / <span>Patio Sets</span> /{' '}
-        <span> Conversation Sets</span>
+        <span className="product-span">Target</span> /{' '}
+        <span className="product-span">Patio {'&'} Garden</span> /{' '}
+        <span className="product-span">Patio Furniture</span> /{' '}
+        <span className="product-span">Patio Sets</span> /{' '}
+        <span className="product-span"> Conversation Sets</span>
       </p>
       <p className="shop-classics">Shop all TK Classics</p>
       <h1 className="product-header">
