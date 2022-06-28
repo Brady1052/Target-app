@@ -1,3 +1,4 @@
+import React from 'react';
 import './Nav.css';
 import targetLogo from '../images-header/target-logo.png';
 import magnifyingGlass from '../images-header/target-magnifying-glass.png';

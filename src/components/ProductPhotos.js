@@ -1,3 +1,4 @@
+import React from 'react';
 import './ProductPhotos.css';
 import ProductSidebar from './ProductSidebar';
 // import ProductSidebarPrice from './ProductSidebarPrice';
