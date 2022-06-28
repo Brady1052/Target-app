@@ -6,4 +6,4 @@ Recreation of target's product page's
 
 ## Origin Website for Reference
 
- <img src='./target-reference-photo-1' alt='reference'>
+![Target Reference Photo 1] (target-reference-photo-1.png)
