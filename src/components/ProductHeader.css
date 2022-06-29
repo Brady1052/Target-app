@@ -7,11 +7,13 @@
   color: rgb(104, 104, 104);
 }
 
-.product-span {
+.product-anchor {
+  color: rgb(104, 104, 104);
   text-decoration: underline;
 }
 
 .shop-classics {
+  display: block;
   font-size: 1.4rem;
   color: rgb(104, 104, 104);
   text-decoration: underline;

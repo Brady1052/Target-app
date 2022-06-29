@@ -12,11 +12,11 @@ function Header() {
         </a>
       </div>
       <div className="header-nav">
-        <a>Registry</a>
-        <a>Weekly Ad</a>
-        <a>RedCard</a>
-        <a>Target Circle</a>
-        <a>Find Stores</a>
+        <a className="header-category">Registry</a>
+        <a className="header-category">Weekly Ad</a>
+        <a className="header-category">RedCard</a>
+        <a className="header-category">Target Circle</a>
+        <a className="header-category">Find Stores</a>
       </div>
     </div>
   );

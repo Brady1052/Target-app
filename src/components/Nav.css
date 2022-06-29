@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(253, 254, 255);
   font-size: 1.6rem;
   padding: 1.5rem 3.9rem;
   border-bottom: red;
   height: 8rem;
 }
-button {
+.nav-category {
   background-color: rgb(255, 255, 255);
   font-size: 1.6rem;
   font-weight: bold;
@@ -16,9 +16,11 @@ button {
   max-width: 20rem;
   padding: 1.5rem 0.1rem;
   border-radius: 0.5rem;
+  text-decoration: none;
+  color: black;
 }
 
-button:hover {
+.nav-category:hover {
   cursor: pointer;
   background-color: rgb(244, 244, 244, 0.6);
 }

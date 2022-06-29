@@ -50,6 +50,48 @@
 .hero-product-img {
   max-width: 74rem;
   margin: 0 -2.4rem;
+}
+.hero-product-img-price-container {
+  position: relative;
+  display: flex;
+}
+.product-sidebar-price-container {
   position: absolute;
-  top: 17rem;
+  right: -40rem;
+  top: -15rem;
+}
+
+.product-sidebar-price-container-child {
+  display: flex;
+  align-items: center;
+}
+
+.product-price {
+  color: rgba(204, 0, 0);
+  font-size: 2.3rem;
+}
+
+.sale {
+  font-weight: 350;
+  font-size: 1.4rem;
+}
+
+.reg-product-price {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(105, 105, 105);
+}
+
+.purchased-online {
+  position: relative;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  color: rgb(51, 51, 51);
+}
+
+#info-btn {
+  position: absolute;
+  top: 0.3rem;
+  margin-left: 0.4rem;
+  max-width: 2rem;
 }
