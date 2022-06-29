@@ -41,7 +41,7 @@ function Nav() {
           alt="guest"
           className="guest-image"
         ></img>
-        <a id="sign-in-btn">Sign In</a>
+        <a id="sign-in-btn">Sign in</a>
         <img
           src={shoppingCart}
           alt="shopping cart"
