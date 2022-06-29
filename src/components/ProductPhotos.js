@@ -6,6 +6,7 @@ import Photo3 from '../images-product/target-product-3.jpeg';
 import Photo4 from '../images-product/target-product-4.jpeg';
 import Photo5 from '../images-product/target-product-5.png';
 import InfoButton from '../images-product/target-info-button.png';
+import Stars from '../images-product-sidebar/target-stars.png';
 export default function ProductPhotos() {
   return (
     <div className="product-photos-container">
@@ -38,6 +39,12 @@ export default function ProductPhotos() {
               </a>
             </span>
           </p>
+          <div className="ratings">
+            <a className="ratings-arrow" href="#">
+              <span className="number-of-ratings">1</span>
+              <img className="stars" src={Stars} alt="5 star rating"></img>
+            </a>
+          </div>
         </div>
       </div>
     </div>

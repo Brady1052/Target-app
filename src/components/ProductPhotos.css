@@ -95,3 +95,27 @@
   margin-left: 0.4rem;
   max-width: 2rem;
 }
+
+.stars {
+  max-width: 10rem;
+}
+
+.ratings {
+  position: relative;
+}
+
+.ratings:hover {
+  text-decoration: none;
+}
+
+.ratings-arrow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 24rem;
+  gap: 0.2rem;
+  color: rgb(105, 105, 105);
+  font-size: 1.2rem;
+}

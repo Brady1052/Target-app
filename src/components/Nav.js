@@ -2,7 +2,7 @@ import React from 'react';
 import './Nav.css';
 import targetLogo from '../images-header/target-logo.png';
 import magnifyingGlass from '../images-header/target-magnifying-glass.png';
-import shoppingCart from '../images-header/target-shopping-cart.png';
+import shoppingCart from '../images-header/target-shopping-cart.jpeg';
 function Nav() {
   return (
     <div className="nav-container">
