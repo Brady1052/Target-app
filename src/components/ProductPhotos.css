@@ -93,7 +93,7 @@
   position: absolute;
   top: 0.3rem;
   margin-left: 0.4rem;
-  max-width: 2rem;
+  max-width: 1.9rem;
 }
 
 .stars {
@@ -101,21 +101,40 @@
 }
 
 .ratings {
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .ratings:hover {
   text-decoration: none;
 }
 
-.ratings-arrow {
+.ratings-container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  align-items: center;
   position: absolute;
-  right: 24rem;
+  top: 6rem;
+  right: 22rem;
   gap: 0.2rem;
   color: rgb(105, 105, 105);
   font-size: 1.2rem;
+  line-height: 2rem;
+  padding-right: 0.4rem;
+}
+
+#grey-arrow {
+  max-width: 1.6rem;
+}
+
+.questions {
+  font-size: 1.2rem;
+  color: rgb(105, 105, 105);
+  position: absolute;
+  border-left: 1px solid rgb(214, 214, 214);
+  display: inline-block;
+  top: 6.3rem;
+  right: 15.4rem;
+  margin-left: 0.4rem;
+  padding-left: 0.4rem;
 }

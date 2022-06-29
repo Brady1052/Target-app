@@ -9,7 +9,7 @@ function Header() {
         <a className="header-left-anchor">
           <span className="header-my-store"> My Store </span>
           <span id="header-store-info-dot"> • </span>
-          <span className="store-closing-time"> Closes At 8pm</span>
+          <span className="store-closing-time"> Closes At 10pm</span>
           <p id="store-name">
             Heath{' '}
             <span className="arrow-btn">

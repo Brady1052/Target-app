@@ -10,18 +10,20 @@ function Nav() {
         <a href="https://www.target.com/">
           <img src={targetLogo} alt="logo" className="logo"></img>
         </a>
-        <a className="nav-category" id="categories-btn">
-          Categories
-        </a>
-        <a className="nav-category" href="#">
-          Deals
-        </a>
-        <a className="nav-category" href="#">
-          What's New
-        </a>
-        <a className="nav-category" href="#">
-          Pickup {'&'} Delivery
-        </a>
+        <div className="nav-categories-container">
+          <a className="nav-category" id="categories-btn">
+            Categories
+          </a>
+          <a className="nav-category" href="#">
+            Deals
+          </a>
+          <a className="nav-category" href="#">
+            What's New
+          </a>
+          <a className="nav-category" href="#">
+            Pickup {'&'} Delivery
+          </a>
+        </div>
         <div className="search-box-container">
           <form className="search-form">
             <input

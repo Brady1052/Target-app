@@ -21,6 +21,12 @@
   color: black;
 }
 
+.nav-categories-container {
+  display: flex;
+  margin-left: 5.3rem;
+  gap: 4.7rem;
+}
+
 .nav-category:hover {
   cursor: pointer;
   background-color: rgb(244, 244, 244, 0.6);
@@ -38,6 +44,9 @@
 
 .logo {
   max-width: 5.5rem;
+  position: absolute;
+  top: 6.1rem;
+  left: 3.4rem;
 }
 .search-box-container {
   display: flex;

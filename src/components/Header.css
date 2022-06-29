@@ -16,16 +16,17 @@
 
 .header-store-info {
   color: rgb(247, 247, 247);
+  letter-spacing: 0.009rem;
 }
 
 .header-my-store {
   margin-right: 0.7rem;
-  word-spacing: 0.1rem;
+  word-spacing: 0.01rem;
 }
 
 #header-store-info-dot {
   position: absolute;
-  left: 9.2rem;
+  left: 9.1rem;
   top: 0.8rem;
   font-size: 1.8rem;
   font-weight: bold;
@@ -44,10 +45,14 @@
 #store-name {
   font-size: 1.4rem;
   font-weight: 700;
+  padding-right: 1rem;
 }
 
 .arrow-btn {
-  max-width: 1.6rem;
+  max-width: 1.7rem;
+  position: absolute;
+  left: 4.1rem;
+  top: 1.2rem;
 }
 
 .header-store-info:hover {
