@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "2415313365b4c2ee215f",
-    "url": "/Target-app/static/css/main.63e250a4.chunk.css"
+    "revision": "a2be5446779f2a5c6c27",
+    "url": "/Target-app/static/css/main.b7b143e1.chunk.css"
   },
   {
-    "revision": "2415313365b4c2ee215f",
-    "url": "/Target-app/static/js/main.24153133.chunk.js"
+    "revision": "a2be5446779f2a5c6c27",
+    "url": "/Target-app/static/js/main.a2be5446.chunk.js"
   },
   {
-    "revision": "d329fcc5324b5516c46c",
-    "url": "/Target-app/static/js/1.d329fcc5.chunk.js"
+    "revision": "58b2af163afad456bdc0",
+    "url": "/Target-app/static/js/1.58b2af16.chunk.js"
   },
   {
     "revision": "3cbd7b8a1a416cd91d56",
@@ -20,12 +20,8 @@ self.__precacheManifest = [
     "url": "/Target-app/static/media/target-product-1.85956d65.png"
   },
   {
-    "revision": "a4abd8f89eb68eaf6c5de3b91d9a55f4",
-    "url": "/Target-app/static/media/target-logo.a4abd8f8.png"
-  },
-  {
-    "revision": "586b0eae300c24104fa1e4dc82be0241",
-    "url": "/Target-app/static/media/target-shopping-cart.586b0eae.png"
+    "revision": "028ab292bc78bfb3e316977aa4ecf165",
+    "url": "/Target-app/static/media/target-logo.028ab292.png"
   },
   {
     "revision": "36c2499dc2a4ace3f8f880a8a2660562",
@@ -40,7 +36,11 @@ self.__precacheManifest = [
     "url": "/Target-app/static/media/target-product-5.75803104.png"
   },
   {
-    "revision": "b325108880fec522f0fd5c62c15472e4",
+    "revision": "b0361976d08b605f0f440577d7616421",
+    "url": "/Target-app/static/media/target-stars.b0361976.png"
+  },
+  {
+    "revision": "afd1b235f6ebaba333ac9cc75b9a0df6",
     "url": "/Target-app/index.html"
   }
 ];
