@@ -28,7 +28,7 @@
 .nav {
   display: flex;
   align-items: center;
-  gap: 4.5rem;
+  gap: 4.7rem;
 }
 
 #categories-btn {
@@ -52,28 +52,44 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: rgba(204, 0, 0);
   border: solid rgb(247, 247, 247);
-  background-color: rgb(247, 247, 247);
+  background-color: #f7f7f7;
   border-radius: 0.8rem;
   height: 4.4rem;
-  width: 51rem;
+  width: 52.5rem;
   font-size: 1.6rem;
   padding: 0.8rem;
   outline: none;
 }
 
+.search-input::placeholder {
+  color: #646464;
+  padding-left: 0.4rem;
+}
+
 .searchBtn {
   position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  max-width: 1.5rem;
+  right: 0.3rem;
+  bottom: 0.3rem;
+  max-width: 3.9rem;
 }
 
 .searchBtn:hover {
   cursor: pointer;
 }
+.sign-in-shopping-cart-container {
+  display: relative;
+}
+
+.guest-image {
+  position: absolute;
+  right: 18.3rem;
+  padding-right: -1rem;
+}
 
 .shopping-cart {
-  max-width: 2.2rem;
+  max-width: 5rem;
+  position: absolute;
+  right: 3.5rem;
 }
 
 .shopping-cart:hover {
@@ -82,8 +98,10 @@
 }
 
 #sign-in-btn {
+  position: absolute;
+  right: 13rem;
   font-size: 1.4rem;
-  margin-left: -3.5rem;
+  margin-left: -3.9rem;
 }
 
 #sign-in-btn:hover {
