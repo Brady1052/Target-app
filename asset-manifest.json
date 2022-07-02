@@ -1,9 +1,9 @@
 {
-  "main.css": "/Target-app/static/css/main.cb1d0832.chunk.css",
-  "main.js": "/Target-app/static/js/main.082019f0.chunk.js",
-  "main.js.map": "/Target-app/static/js/main.082019f0.chunk.js.map",
-  "static/js/1.627bd338.chunk.js": "/Target-app/static/js/1.627bd338.chunk.js",
-  "static/js/1.627bd338.chunk.js.map": "/Target-app/static/js/1.627bd338.chunk.js.map",
+  "main.css": "/Target-app/static/css/main.272c0fab.chunk.css",
+  "main.js": "/Target-app/static/js/main.ebf5c332.chunk.js",
+  "main.js.map": "/Target-app/static/js/main.ebf5c332.chunk.js.map",
+  "static/js/1.a2e16884.chunk.js": "/Target-app/static/js/1.a2e16884.chunk.js",
+  "static/js/1.a2e16884.chunk.js.map": "/Target-app/static/js/1.a2e16884.chunk.js.map",
   "runtime~main.js": "/Target-app/static/js/runtime~main.3cbd7b8a.js",
   "runtime~main.js.map": "/Target-app/static/js/runtime~main.3cbd7b8a.js.map",
   "static/media/target-product-1.png": "/Target-app/static/media/target-product-1.85956d65.png",
@@ -12,8 +12,8 @@
   "static/media/target-product-2.jpeg": "/Target-app/static/media/target-product-2.36c2499d.jpeg",
   "static/media/target-product-3.jpeg": "/Target-app/static/media/target-product-3.0f3aaecc.jpeg",
   "static/media/target-product-5.png": "/Target-app/static/media/target-product-5.75803104.png",
-  "static/css/main.cb1d0832.chunk.css.map": "/Target-app/static/css/main.cb1d0832.chunk.css.map",
+  "static/css/main.272c0fab.chunk.css.map": "/Target-app/static/css/main.272c0fab.chunk.css.map",
   "index.html": "/Target-app/index.html",
-  "precache-manifest.59c79e0711286abfb5274fc0fa70bd11.js": "/Target-app/precache-manifest.59c79e0711286abfb5274fc0fa70bd11.js",
+  "precache-manifest.2f17815725b2d744e0b9328313b234ad.js": "/Target-app/precache-manifest.2f17815725b2d744e0b9328313b234ad.js",
   "service-worker.js": "/Target-app/service-worker.js"
 }
