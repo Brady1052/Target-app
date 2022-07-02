@@ -5,15 +5,14 @@ import Nav from './components/Nav';
 import ProductHeader from './components/ProductHeader';
 import ProductPhotos from './components/ProductPhotos';
 
-function App() {
+function App(props) {
   return (
     <div>
-      <Header />
+      <Header storeName="Heath"></Header>
       <Nav />
       <ProductHeader />
       <ProductPhotos />
     </div>
   );
 }
-
 export default App;

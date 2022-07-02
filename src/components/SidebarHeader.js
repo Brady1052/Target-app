@@ -18,13 +18,16 @@ export default function SidebarHeader() {
       <p className="purchased-online">
         When purchased online
         <span>
-          <a>
+          <a href="//www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab">
             <img id="info-btn" src={InfoButton} alt="info button"></img>
           </a>
         </span>
       </p>
       <div className="ratings">
-        <a className="ratings-container" href="#">
+        <a
+          className="ratings-container"
+          href="//www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+        >
           <span className="grey-arrow">
             <img id="grey-arrow" src={GreyArrow} alt="Grey Arrow"></img>
           </span>
@@ -32,7 +35,10 @@ export default function SidebarHeader() {
           <img className="stars" src={Stars} alt="5 star rating"></img>
         </a>
         <div>
-          <a href="#" className="questions">
+          <a
+            href="//www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+            className="questions"
+          >
             3 Questions
           </a>
         </div>

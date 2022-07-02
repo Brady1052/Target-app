@@ -11,16 +11,29 @@ function Nav() {
           <img src={targetLogo} alt="logo" className="logo"></img>
         </a>
         <div className="nav-categories-container">
-          <a className="nav-category" id="categories-btn">
+          <a
+            className="nav-category"
+            id="categories-btn"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
             Categories
           </a>
-          <a className="nav-category" href="#">
+          <a
+            className="nav-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
             Deals
           </a>
-          <a className="nav-category" href="#">
+          <a
+            className="nav-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
             What's New
           </a>
-          <a className="nav-category" href="#">
+          <a
+            className="nav-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
             Pickup {'&'} Delivery
           </a>
         </div>
@@ -43,7 +56,12 @@ function Nav() {
           alt="guest"
           className="guest-image"
         ></img>
-        <a id="sign-in-btn">Sign in</a>
+        <a
+          id="sign-in-btn"
+          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+        >
+          Sign in
+        </a>
         <img
           src={shoppingCart}
           alt="shopping cart"

@@ -10,8 +10,9 @@
   min-height: 5rem;
 }
 
-#header-left-anchor {
+.header-left-container {
   position: relative;
+  text-decoration: none;
 }
 
 .header-store-info {
@@ -20,16 +21,18 @@
 }
 
 .header-my-store {
+  color: rgb(247, 247, 247);
   margin-right: 0.7rem;
   word-spacing: 0.01rem;
 }
 
 #header-store-info-dot {
   position: absolute;
-  left: 9.1rem;
-  top: 0.8rem;
+  left: 5.1rem;
+  top: -0.1rem;
   font-size: 1.8rem;
   font-weight: bold;
+  color: rgb(247, 247, 247);
 }
 
 .header-nav {
@@ -37,22 +40,39 @@
   gap: 2.7em;
 }
 
-.header-category:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.header-category {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+.store-closing-time {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
 }
 
 #store-name {
+  display: block;
   font-size: 1.4rem;
   font-weight: 700;
   padding-right: 1rem;
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+#store-name-text {
+  position: relative;
 }
 
 .arrow-btn {
   max-width: 1.7rem;
   position: absolute;
-  left: 4.1rem;
-  top: 1.2rem;
+  right: -1.9rem;
+  top: -0.1rem;
+}
+
+.header-category:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .header-store-info:hover {
