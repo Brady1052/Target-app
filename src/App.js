@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import ProductHeader from './components/ProductHeader';
 import ProductPhotos from './components/ProductPhotos';
 
-function App(props) {
+function App() {
   return (
     <div>
       <Header storeName="Heath"></Header>

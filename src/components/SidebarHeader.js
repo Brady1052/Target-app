@@ -3,7 +3,7 @@ import InfoButton from '../images-product/target-info-button.png';
 import Stars from '../images-product-sidebar/target-stars.png';
 import GreyArrow from '../images-product-sidebar/grey-bottom-arrow.png';
 import './Sidebar.css';
-
+import ColorPallete from './ColorPallete.js';
 export default function SidebarHeader() {
   return (
     <div className="product-sidebar-price-container">
@@ -34,7 +34,7 @@ export default function SidebarHeader() {
           <span className="number-of-ratings">1</span>
           <img className="stars" src={Stars} alt="5 star rating"></img>
         </a>
-        <div>
+        <div className="questions-container">
           <a
             href="//www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
             className="questions"
@@ -43,6 +43,7 @@ export default function SidebarHeader() {
           </a>
         </div>
       </div>
+      <ColorPallete />
     </div>
   );
 }

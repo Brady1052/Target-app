@@ -1,0 +1,21 @@
+.color-pallete-container {
+  position: absolute;
+  top: 10rem;
+  font-weight: lighter;
+}
+
+.pallete-header-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.pallete-header {
+  font-size: 1.6rem;
+  font-weight: 350;
+}
+
+#item-color {
+  font-size: 1.6rem;
+  font-weight: bold;
+}

@@ -13,6 +13,7 @@
 .header-left-container {
   position: relative;
   text-decoration: none;
+  color: white;
 }
 
 .header-store-info {
@@ -78,4 +79,5 @@
 .header-store-info:hover {
   cursor: pointer;
   text-decoration: underline;
+  color: white;
 }
