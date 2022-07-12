@@ -7,7 +7,7 @@ import Photo3 from '../images-product/target-product-3.jpeg';
 import Photo4 from '../images-product/target-product-4.jpeg';
 import Photo5 from '../images-product/target-product-5.png';
 import ShippingInformation from './ShippingInformation.js';
-
+import Checkout from './Checkout.js';
 export default function ProductPhotos() {
   return (
     <div className="product-photos-container">
@@ -27,6 +27,7 @@ export default function ProductPhotos() {
         <img className="hero-product-img" src={Photo1} alt="main product"></img>
         <SidebarHeader />
         <ShippingInformation />
+        <Checkout />
       </div>
     </div>
   );
