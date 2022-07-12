@@ -1,17 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import ProductHeader from './components/ProductHeader';
-import ProductPhotos from './components/ProductPhotos';
-
+import MainPage from './components/MainPage';
 function App() {
   return (
     <div>
-      <Header storeName="Heath"></Header>
-      <Nav />
-      <ProductHeader />
-      <ProductPhotos />
+      <MainPage />
     </div>
   );
 }

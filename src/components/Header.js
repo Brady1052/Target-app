@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ArrowBtn from '../images-header/target-down-arrow.png';
 import './Header.css';
 
 function Header(props) {
-  const [storeName, setStoreName] = useState(props.storeName);
-  const clickHandler = () => {
-    setStoreName('Updated');
-  };
   return (
     <div className="header-container">
       <div className="header-store-info">
@@ -19,7 +15,7 @@ function Header(props) {
           <span className="store-closing-time"> Closes At 10pm</span>
           <p id="store-name">
             <span id="store-name-text">
-              {storeName}{' '}
+              {props.storeName}{' '}
               <img className="arrow-btn" src={ArrowBtn} alt="down arrow"></img>
             </span>
           </p>

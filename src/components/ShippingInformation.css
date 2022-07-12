@@ -42,3 +42,28 @@
   font-weight: 400;
   line-height: 3rem;
 }
+
+.packaging-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: -1rem;
+}
+
+#orange-triangle {
+  max-width: 4rem;
+}
+
+.original-packaging-p {
+  font-size: 1.4rem;
+}
+
+#packaging-details-btn {
+  color: rgb(104, 104, 104);
+}
+
+#packaging-details-btn:hover {
+  color: black;
+  text-decoration: none;
+}
