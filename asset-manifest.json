@@ -1,9 +1,9 @@
 {
-  "main.css": "/Target-app/static/css/main.1f42c09e.chunk.css",
-  "main.js": "/Target-app/static/js/main.fbca6b6c.chunk.js",
-  "main.js.map": "/Target-app/static/js/main.fbca6b6c.chunk.js.map",
-  "static/js/1.06ea1517.chunk.js": "/Target-app/static/js/1.06ea1517.chunk.js",
-  "static/js/1.06ea1517.chunk.js.map": "/Target-app/static/js/1.06ea1517.chunk.js.map",
+  "main.css": "/Target-app/static/css/main.976818c1.chunk.css",
+  "main.js": "/Target-app/static/js/main.d6869f99.chunk.js",
+  "main.js.map": "/Target-app/static/js/main.d6869f99.chunk.js.map",
+  "static/js/1.9a46a1d5.chunk.js": "/Target-app/static/js/1.9a46a1d5.chunk.js",
+  "static/js/1.9a46a1d5.chunk.js.map": "/Target-app/static/js/1.9a46a1d5.chunk.js.map",
   "runtime~main.js": "/Target-app/static/js/runtime~main.3cbd7b8a.js",
   "runtime~main.js.map": "/Target-app/static/js/runtime~main.3cbd7b8a.js.map",
   "static/media/target-product-1.png": "/Target-app/static/media/target-product-1.85956d65.png",
@@ -13,8 +13,8 @@
   "static/media/target-product-2.jpeg": "/Target-app/static/media/target-product-2.36c2499d.jpeg",
   "static/media/target-product-3.jpeg": "/Target-app/static/media/target-product-3.0f3aaecc.jpeg",
   "static/media/target-product-5.png": "/Target-app/static/media/target-product-5.75803104.png",
-  "static/css/main.1f42c09e.chunk.css.map": "/Target-app/static/css/main.1f42c09e.chunk.css.map",
+  "static/css/main.976818c1.chunk.css.map": "/Target-app/static/css/main.976818c1.chunk.css.map",
   "index.html": "/Target-app/index.html",
-  "precache-manifest.39322110c42da0913bfa2866d0b389cc.js": "/Target-app/precache-manifest.39322110c42da0913bfa2866d0b389cc.js",
+  "precache-manifest.5953429b7521f9becb03ea9782df5ff4.js": "/Target-app/precache-manifest.5953429b7521f9becb03ea9782df5ff4.js",
   "service-worker.js": "/Target-app/service-worker.js"
 }
