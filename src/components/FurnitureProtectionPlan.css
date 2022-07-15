@@ -1,0 +1,33 @@
+.furniture-protection-plan-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: -3rem;
+  right: -55rem;
+  gap: 1.9rem;
+}
+
+input.protection-plan-checkbox {
+  width: 2rem;
+  height: 2rem;
+}
+.furniture-protection-plan-h1-container {
+  max-width: 80%;
+}
+
+.furniture-protection-plan-h1 {
+  font-size: 1.6rem;
+}
+
+.protection-plan-price {
+  font-size: 1.4rem;
+}
+
+#plan-details {
+  color: rgb(97, 97, 97);
+}
+
+#plan-details:hover {
+  color: black;
+  text-decoration: none;
+}
