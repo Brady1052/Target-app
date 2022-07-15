@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ddbf87c6acec843aa28a",
-    "url": "/Target-app/static/css/main.fdac4d9b.chunk.css"
+    "revision": "51f1bf1efcaa2b9b2605",
+    "url": "/Target-app/static/css/main.b617692b.chunk.css"
   },
   {
-    "revision": "ddbf87c6acec843aa28a",
-    "url": "/Target-app/static/js/main.ddbf87c6.chunk.js"
+    "revision": "51f1bf1efcaa2b9b2605",
+    "url": "/Target-app/static/js/main.51f1bf1e.chunk.js"
   },
   {
-    "revision": "3c8de879200ff117a7af",
-    "url": "/Target-app/static/js/1.3c8de879.chunk.js"
+    "revision": "291b4e025d53c36c8794",
+    "url": "/Target-app/static/js/1.291b4e02.chunk.js"
   },
   {
     "revision": "3cbd7b8a1a416cd91d56",
@@ -44,7 +44,23 @@ self.__precacheManifest = [
     "url": "/Target-app/static/media/target-product-5.75803104.png"
   },
   {
-    "revision": "10abe497a68dbd1c29a6af99d0d9c604",
+    "revision": "d7a7853fbdc2e1bc329c64e7ffedd836",
+    "url": "/Target-app/static/media/target-box.d7a7853f.png"
+  },
+  {
+    "revision": "5c6bfa8017afc3533b15e9d0d44e0731",
+    "url": "/Target-app/static/media/target-info-circle.5c6bfa80.png"
+  },
+  {
+    "revision": "51b7f32903d493dd4c1cc1aa1d2dccc4",
+    "url": "/Target-app/static/media/target-card.51b7f329.png"
+  },
+  {
+    "revision": "82cc93e6006c81ccf608c4d39e83b198",
+    "url": "/Target-app/static/media/target-gift-box.82cc93e6.png"
+  },
+  {
+    "revision": "c4326c0aff15d9cb1de7946778cdccd0",
     "url": "/Target-app/index.html"
   }
 ];
