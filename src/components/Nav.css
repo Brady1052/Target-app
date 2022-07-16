@@ -23,6 +23,8 @@
 
 .nav-categories-container {
   display: flex;
+  align-items: center;
+  justify-items: flex-start;
   margin-left: 5.3rem;
   gap: 4.7rem;
 }
@@ -124,4 +126,135 @@
 #sign-in-btn:hover {
   cursor: pointer;
   background-color: rgb(244, 244, 244, 0.6);
+}
+@media (max-width: 480px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(253, 254, 255);
+    font-size: 1.6rem;
+    padding: 1.7rem 3.1rem;
+    border-bottom: red;
+    height: 8rem;
+    box-shadow: 0 0.1rem 0.4rem #e3e3e3;
+  }
+  .nav-category {
+    background-color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    max-width: 20rem;
+    padding: 1.5rem 0.1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-categories-container {
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    margin-left: 5.3rem;
+    gap: 4.7rem;
+  }
+
+  .nav-category {
+    color: black;
+  }
+
+  .nav-category:hover {
+    cursor: pointer;
+    background-color: rgb(244, 244, 244, 0.6);
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 4.7rem;
+  }
+
+  #categories-btn {
+    margin-left: -1.2rem;
+  }
+
+  .logo {
+    max-width: 5.5rem;
+    position: absolute;
+    top: 6.1rem;
+    left: 3.4rem;
+  }
+  .search-box-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .search-form {
+    position: relative;
+  }
+
+  .search-input {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgba(204, 0, 0);
+    border: solid rgb(247, 247, 247);
+    background-color: #f6f6f6;
+    border-radius: 0.8rem;
+    height: 4.4rem;
+    min-width: 52.1rem;
+    max-width: 52.1rem;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    outline: none;
+  }
+
+  .search-input::placeholder {
+    color: #646464;
+    padding-left: 0.3rem;
+  }
+
+  .searchBtn {
+    position: absolute;
+    right: 0.01rem;
+    bottom: 0.3rem;
+    max-width: 3.9rem;
+  }
+
+  .searchBtn:hover {
+    cursor: pointer;
+  }
+  .sign-in-shopping-cart-container {
+    display: relative;
+  }
+
+  .guest-image {
+    position: absolute;
+    right: 18.3rem;
+    padding-right: -1rem;
+  }
+
+  .shopping-cart {
+    max-width: 3.8rem;
+    position: absolute;
+    right: 4.2rem;
+  }
+
+  .shopping-cart:hover {
+    cursor: pointer;
+    background-color: rgb(244, 244, 244, 0.6);
+  }
+
+  #sign-in-btn {
+    position: absolute;
+    right: 13rem;
+    font-size: 1.4rem;
+    margin-left: -3.9rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  #sign-in-btn:hover {
+    cursor: pointer;
+    background-color: rgb(244, 244, 244, 0.6);
+  }
 }

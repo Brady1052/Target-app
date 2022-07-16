@@ -10,6 +10,12 @@
   min-height: 5rem;
 }
 
+.header-child-container {
+  display: flex;
+  align-items: center;
+  gap: 80rem;
+}
+
 .header-left-container {
   position: relative;
   text-decoration: none;
@@ -80,4 +86,96 @@
   cursor: pointer;
   text-decoration: underline;
   color: white;
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(204, 0, 0);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.66rem 4rem;
+    line-height: 1.7rem;
+    min-height: 5rem;
+  }
+
+  .header-child-container {
+    display: flex;
+    align-items: center;
+    gap: 80rem;
+  }
+
+  .header-left-container {
+    position: relative;
+    text-decoration: none;
+    color: white;
+  }
+
+  .header-store-info {
+    color: rgb(247, 247, 247);
+    letter-spacing: 0.009rem;
+  }
+
+  .header-my-store {
+    color: rgb(247, 247, 247);
+    margin-right: 0.7rem;
+    word-spacing: 0.01rem;
+  }
+
+  #header-store-info-dot {
+    position: absolute;
+    left: 5.1rem;
+    top: -0.1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 2.7em;
+  }
+
+  .header-category {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+  }
+
+  .store-closing-time {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+  }
+
+  #store-name {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-right: 1rem;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+  }
+
+  #store-name-text {
+    position: relative;
+  }
+
+  .arrow-btn {
+    max-width: 1.7rem;
+    position: absolute;
+    right: -1.9rem;
+    top: -0.1rem;
+  }
+
+  .header-category:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .header-store-info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+  }
 }

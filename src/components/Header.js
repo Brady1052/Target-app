@@ -5,54 +5,60 @@ import './Header.css';
 function Header(props) {
   return (
     <div className="header-container">
-      <div className="header-store-info">
-        <a
-          className="header-left-container"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          <span className="header-my-store"> My Store </span>
-          <span id="header-store-info-dot"> • </span>
-          <span className="store-closing-time"> Closes At 10pm</span>
-          <p id="store-name">
-            <span id="store-name-text">
-              {props.storeName}{' '}
-              <img className="arrow-btn" src={ArrowBtn} alt="down arrow"></img>
-            </span>
-          </p>
-        </a>
-      </div>
-      <div className="header-nav">
-        {/* <button onClick={clickHandler}>Change Store</button> */}
-        <a
-          className="header-category"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          Registry
-        </a>
-        <a
-          className="header-category"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          Weekly Ad
-        </a>
-        <a
-          className="header-category"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          RedCard
-        </a>
-        <a
-          className="header-category"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          Target Circle
-        </a>
-        <a
-          className="header-category"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          Find Stores
-        </a>
+      <div className="header-child-container">
+        <div className="header-store-info">
+          <a
+            className="header-left-container"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
+            <span className="header-my-store"> My Store </span>
+            <span id="header-store-info-dot"> • </span>
+            <span className="store-closing-time"> Closes At 10pm</span>
+            <p id="store-name">
+              <span id="store-name-text">
+                {props.storeName}{' '}
+                <img
+                  className="arrow-btn"
+                  src={ArrowBtn}
+                  alt="down arrow"
+                ></img>
+              </span>
+            </p>
+          </a>
+        </div>
+        <div className="header-nav">
+          {/* <button onClick={clickHandler}>Change Store</button> */}
+          <a
+            className="header-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
+            Registry
+          </a>
+          <a
+            className="header-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
+            Weekly Ad
+          </a>
+          <a
+            className="header-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
+            RedCard
+          </a>
+          <a
+            className="header-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
+            Target Circle
+          </a>
+          <a
+            className="header-category"
+            href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+          >
+            Find Stores
+          </a>
+        </div>
       </div>
     </div>
   );

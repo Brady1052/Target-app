@@ -1,13 +1,14 @@
 .color-pallete-container {
-  position: absolute;
-  top: 10rem;
   font-weight: lighter;
+  margin-top: 2rem;
+  margin-left: -2rem;
 }
 
 .pallete-header-container {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  margin-left: 2rem;
 }
 
 .pallete-header {
@@ -26,6 +27,35 @@
 
 .color-pallete-img {
   max-width: 45rem;
-  position: absolute;
-  left: -2.4rem;
+}
+
+@media (max-width: 480px) {
+  .color-pallete-container {
+    font-weight: lighter;
+    margin-top: 2rem;
+  }
+
+  .pallete-header-container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .pallete-header {
+    font-size: 1.6rem;
+    font-weight: 350;
+  }
+
+  #item-color {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .color-pallete-img-container {
+    position: relative;
+  }
+
+  .color-pallete-img {
+    max-width: 45rem;
+  }
 }

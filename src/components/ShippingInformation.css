@@ -1,7 +1,4 @@
 .shipping-information-container {
-  position: absolute;
-  top: 7rem;
-  right: -45.5rem;
   min-width: 40rem;
   max-width: 30rem;
 }
@@ -47,8 +44,6 @@
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  position: absolute;
-  left: -1rem;
 }
 
 #orange-triangle {
@@ -66,4 +61,71 @@
 #packaging-details-btn:hover {
   color: black;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .shipping-information-container {
+    min-width: 40rem;
+    max-width: 30rem;
+  }
+
+  .zip-code {
+    font-size: 1.9rem;
+  }
+
+  .edit-location {
+    font-size: 1.6rem;
+    text-decoration: underline;
+    color: rgb(104, 104, 104);
+    font-weight: 400;
+    line-height: 3.5rem;
+  }
+
+  .edit-location:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .arrival-time {
+    color: rgb(0, 147, 0);
+    font-size: 1.65rem;
+    font-weight: 400;
+    line-height: 3rem;
+  }
+
+  .arrival-time-child {
+    font-size: 1.4rem;
+    color: rgb(104, 104, 104);
+    font-weight: 400;
+  }
+
+  .item-not-sold-store {
+    color: rgb(104, 104, 104);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 3rem;
+  }
+
+  .packaging-info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  #orange-triangle {
+    max-width: 4rem;
+  }
+
+  .original-packaging-p {
+    font-size: 1.4rem;
+  }
+
+  #packaging-details-btn {
+    color: rgb(104, 104, 104);
+  }
+
+  #packaging-details-btn:hover {
+    color: black;
+    text-decoration: none;
+  }
 }

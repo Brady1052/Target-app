@@ -1,9 +1,6 @@
 .to-door-delivery {
   display: flex;
   align-items: center;
-  position: absolute;
-  right: -50rem;
-  bottom: 4.5rem;
   background-color: rgb(247, 247, 247);
   border-radius: 1.2rem;
   padding: 0.7rem 0rem;
@@ -25,4 +22,32 @@
 .to-door-delivery-p {
   font-weight: bold;
   font-size: 1.6rem;
+}
+
+@media (max-width: 480px) {
+  .to-door-delivery {
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 1.2rem;
+    padding: 0.7rem 0rem;
+  }
+
+  .to-door-delivery:hover {
+    cursor: pointer;
+  }
+
+  .target-box {
+    max-width: 5rem;
+  }
+
+  .info-circle {
+    max-width: 6rem;
+    margin-left: 14rem;
+  }
+
+  .to-door-delivery-p {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
 }
