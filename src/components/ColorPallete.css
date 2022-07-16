@@ -33,12 +33,14 @@
   .color-pallete-container {
     font-weight: lighter;
     margin-top: 2rem;
+    margin-left: -2rem;
   }
 
   .pallete-header-container {
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    margin-left: 2rem;
   }
 
   .pallete-header {

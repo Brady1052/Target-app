@@ -51,22 +51,29 @@ function Nav() {
             ></img>
           </form>
         </div>
-        <img
-          src="https://target.scene7.com/is/content/Target/GUEST_ad24d0ff-62d6-4c7b-8b24-ae701e51b0f6"
-          alt="guest"
-          className="guest-image"
-        ></img>
-        <a
-          id="sign-in-btn"
-          href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
-        >
-          Sign in
-        </a>
-        <img
-          src={shoppingCart}
-          alt="shopping cart"
-          className="shopping-cart"
-        ></img>
+        <div className="guest-cart-container">
+          <div className="sign-in-img-container">
+            <img
+              src="https://target.scene7.com/is/content/Target/GUEST_ad24d0ff-62d6-4c7b-8b24-ae701e51b0f6"
+              alt="guest"
+              className="guest-image"
+            ></img>
+
+            <a
+              id="sign-in-btn"
+              href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
+            >
+              Sign in
+            </a>
+          </div>
+          <div className="shopping-cart-container">
+            <img
+              src={shoppingCart}
+              alt="shopping cart"
+              className="shopping-cart"
+            ></img>
+          </div>
+        </div>
       </nav>
     </div>
   );

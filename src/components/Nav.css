@@ -93,20 +93,29 @@
 .searchBtn:hover {
   cursor: pointer;
 }
+
+/* AFTER SEARCH BOX */
+.guest-cart-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.sign-in-img-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 .sign-in-shopping-cart-container {
   display: relative;
 }
 
 .guest-image {
-  position: absolute;
-  right: 18.3rem;
   padding-right: -1rem;
 }
 
 .shopping-cart {
-  max-width: 3.8rem;
-  position: absolute;
-  right: 4.2rem;
+  max-width: 3.6rem;
 }
 
 .shopping-cart:hover {
@@ -115,10 +124,8 @@
 }
 
 #sign-in-btn {
-  position: absolute;
-  right: 13rem;
   font-size: 1.4rem;
-  margin-left: -3.9rem;
+  /* margin-left: -3.9rem; */
   text-decoration: none;
   color: black;
 }
@@ -136,7 +143,7 @@
     font-size: 1.6rem;
     padding: 1.7rem 3.1rem;
     border-bottom: red;
-    height: 8rem;
+    height: 12.5rem;
     box-shadow: 0 0.1rem 0.4rem #e3e3e3;
   }
   .nav-category {
@@ -161,6 +168,7 @@
 
   .nav-category {
     color: black;
+    display: none;
   }
 
   .nav-category:hover {
@@ -171,7 +179,8 @@
   .nav {
     display: flex;
     align-items: center;
-    gap: 4.7rem;
+    flex-direction: column-reverse;
+    gap: 0;
   }
 
   #categories-btn {
@@ -201,8 +210,7 @@
     background-color: #f6f6f6;
     border-radius: 0.8rem;
     height: 4.4rem;
-    min-width: 52.1rem;
-    max-width: 52.1rem;
+    min-width: 40rem;
     font-size: 1.6rem;
     padding: 0.8rem;
     outline: none;
@@ -223,20 +231,29 @@
   .searchBtn:hover {
     cursor: pointer;
   }
+
+  /* AFTER SEARCH BOX */
+  .guest-cart-container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .sign-in-img-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
   .sign-in-shopping-cart-container {
     display: relative;
   }
 
   .guest-image {
-    position: absolute;
-    right: 18.3rem;
     padding-right: -1rem;
   }
 
   .shopping-cart {
-    max-width: 3.8rem;
-    position: absolute;
-    right: 4.2rem;
+    max-width: 3.6rem;
   }
 
   .shopping-cart:hover {
@@ -245,10 +262,8 @@
   }
 
   #sign-in-btn {
-    position: absolute;
-    right: 13rem;
     font-size: 1.4rem;
-    margin-left: -3.9rem;
+    /* margin-left: -3.9rem; */
     text-decoration: none;
     color: black;
   }
