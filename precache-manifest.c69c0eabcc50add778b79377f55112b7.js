@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "51f1bf1efcaa2b9b2605",
-    "url": "/Target-app/static/css/main.b617692b.chunk.css"
+    "revision": "0a57507f64752ec0c117",
+    "url": "/Target-app/static/css/main.18edb639.chunk.css"
   },
   {
-    "revision": "51f1bf1efcaa2b9b2605",
-    "url": "/Target-app/static/js/main.51f1bf1e.chunk.js"
+    "revision": "0a57507f64752ec0c117",
+    "url": "/Target-app/static/js/main.0a57507f.chunk.js"
   },
   {
     "revision": "291b4e025d53c36c8794",
@@ -32,18 +32,6 @@ self.__precacheManifest = [
     "url": "/Target-app/static/media/target-color-pallete.f70166c1.png"
   },
   {
-    "revision": "36c2499dc2a4ace3f8f880a8a2660562",
-    "url": "/Target-app/static/media/target-product-2.36c2499d.jpeg"
-  },
-  {
-    "revision": "0f3aaecca52ba528471661991a727afd",
-    "url": "/Target-app/static/media/target-product-3.0f3aaecc.jpeg"
-  },
-  {
-    "revision": "75803104df0d4d8bf25c03e2d497a22c",
-    "url": "/Target-app/static/media/target-product-5.75803104.png"
-  },
-  {
     "revision": "d7a7853fbdc2e1bc329c64e7ffedd836",
     "url": "/Target-app/static/media/target-box.d7a7853f.png"
   },
@@ -60,7 +48,19 @@ self.__precacheManifest = [
     "url": "/Target-app/static/media/target-gift-box.82cc93e6.png"
   },
   {
-    "revision": "c4326c0aff15d9cb1de7946778cdccd0",
+    "revision": "36c2499dc2a4ace3f8f880a8a2660562",
+    "url": "/Target-app/static/media/target-product-2.36c2499d.jpeg"
+  },
+  {
+    "revision": "0f3aaecca52ba528471661991a727afd",
+    "url": "/Target-app/static/media/target-product-3.0f3aaecc.jpeg"
+  },
+  {
+    "revision": "75803104df0d4d8bf25c03e2d497a22c",
+    "url": "/Target-app/static/media/target-product-5.75803104.png"
+  },
+  {
+    "revision": "d2e39c1181607fa0f4c456dbfdf2d9dc",
     "url": "/Target-app/index.html"
   }
 ];
