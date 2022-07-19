@@ -127,8 +127,7 @@
 
   .hero-product-img {
     max-width: 110%;
-    margin-left: 0.5rem;
-    padding-right: 2rem;
+    margin-left: 0rem;
     margin-top: 5rem;
   }
   .hero-product-img-price-container {

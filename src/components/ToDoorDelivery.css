@@ -28,9 +28,13 @@
   .to-door-delivery {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(247, 247, 247);
     border-radius: 1.2rem;
     max-width: 92.3%;
+    min-width: 92.3%;
+    min-height: 7rem;
+    position: relative;
   }
 
   .to-door-delivery:hover {
@@ -43,11 +47,19 @@
 
   .info-circle {
     max-width: 6rem;
-    margin-left: 14rem;
+    margin-left: 0rem;
   }
 
   .to-door-delivery-p {
     font-weight: bold;
     font-size: 1.6rem;
+    position: relative;
+    margin-top: -2rem;
+  }
+
+  #delivery-span {
+    position: absolute;
+    display: block;
+    left: 4rem;
   }
 }

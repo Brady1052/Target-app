@@ -111,7 +111,7 @@
   .sign-in {
     margin-left: 0rem;
     border: 1px solid black;
-    padding: 1rem 1.5rem;
+    margin-right: 2rem;
     border-radius: 0.5rem;
     color: rgb(102, 102, 102);
     text-decoration: none;
@@ -137,13 +137,14 @@
 
   .right-arrow {
     max-width: 4rem;
-    margin-right: ;
+    margin-left: 0rem;
   }
 
   .savings-p {
     font-weight: bold;
     font-size: 1.6rem;
     min-width: 20rem;
+    margin-left: -1rem;
   }
 
   .redcard-p {
@@ -166,10 +167,12 @@
 
   .info-logo {
     max-width: 4.5rem;
-    margin-right: 5rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
   }
 
   .tk-classics {
+    margin-bottom: 4rem;
   }
 
   .tk-btn {

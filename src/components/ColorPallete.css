@@ -32,8 +32,8 @@
 @media (max-width: 480px) {
   .color-pallete-container {
     font-weight: lighter;
-    margin-top: 2rem;
-    margin-left: -2rem;
+    margin-top: 0rem;
+    margin-left: -1rem;
     max-width: 100%;
   }
 
@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   .pallete-header {
