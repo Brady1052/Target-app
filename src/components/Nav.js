@@ -7,9 +7,12 @@ function Nav() {
   return (
     <div className="nav-container">
       <nav className="nav">
-        <a href="https://www.target.com/">
-          <img src={targetLogo} alt="logo" className="logo"></img>
-        </a>
+        <div className="logo-container">
+          {' '}
+          <a href="https://www.target.com/">
+            <img src={targetLogo} alt="logo" className="logo"></img>
+          </a>
+        </div>
         <div className="nav-categories-container">
           <a
             className="nav-category"
@@ -52,6 +55,17 @@ function Nav() {
           </form>
         </div>
         <div className="guest-cart-container">
+          <div className="hamburger-container">
+            <div className="burger"></div>
+            <div className="burger"></div>
+            <div className="burger"></div>
+          </div>
+          <div className="mobile-logo-container">
+            {' '}
+            <a href="https://www.target.com/">
+              <img src={targetLogo} alt="logo" className="mobile-logo"></img>
+            </a>
+          </div>
           <div className="sign-in-img-container">
             <img
               src="https://target.scene7.com/is/content/Target/GUEST_ad24d0ff-62d6-4c7b-8b24-ae701e51b0f6"
@@ -63,10 +77,8 @@ function Nav() {
               id="sign-in-btn"
               href="https://www.target.com/p/florence-7pc-outdoor-sectional-seating-group-with-cushions-tk-classics/-/A-82072287?preselect=81870489#lnk=sametab"
             >
-              Sign in
+              <span id="sign-in-text">Sign in</span>
             </a>
-          </div>
-          <div className="shopping-cart-container">
             <img
               src={shoppingCart}
               alt="shopping cart"

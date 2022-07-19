@@ -1,7 +1,7 @@
 .product-photos-container {
   display: flex;
   align-items: center;
-  gap: -4rem;
+  gap: 4rem;
   position: relative;
 }
 
@@ -53,7 +53,7 @@
 
 .hero-product-img {
   max-width: 74rem;
-  margin: 0 -2.4rem;
+  margin-left: -6rem;
 }
 .hero-product-img-price-container {
   position: relative;
@@ -126,8 +126,10 @@
   }
 
   .hero-product-img {
-    max-width: 99%;
-    margin: 10rem;
+    max-width: 110%;
+    margin-left: 0.5rem;
+    padding-right: 2rem;
+    margin-top: 5rem;
   }
   .hero-product-img-price-container {
     position: relative;
@@ -137,8 +139,8 @@
 
   .like-btn {
     position: absolute;
-    bottom: -7rem;
-    right: 16rem;
+    bottom: -8rem;
+    right: 4rem;
     max-width: 6rem;
   }
 }

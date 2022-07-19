@@ -1,6 +1,5 @@
 .shipping-information-container {
-  min-width: 40rem;
-  max-width: 30rem;
+  max-width: 100%;
 }
 
 .zip-code {
@@ -65,8 +64,7 @@
 
 @media (max-width: 480px) {
   .shipping-information-container {
-    min-width: 40rem;
-    max-width: 30rem;
+    max-width: 100%;
   }
 
   .zip-code {

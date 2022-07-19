@@ -30,7 +30,7 @@
     align-items: center;
     background-color: rgb(247, 247, 247);
     border-radius: 1.2rem;
-    padding: 0.7rem 0rem;
+    max-width: 92.3%;
   }
 
   .to-door-delivery:hover {

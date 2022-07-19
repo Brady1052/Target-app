@@ -94,6 +94,7 @@
 @media (max-width: 480px) {
   .sidebar-final-component-container {
     bottom: -100rem;
+    max-width: 100%;
   }
 
   /* REGISTRY */
@@ -108,12 +109,13 @@
   }
 
   .sign-in {
-    margin-left: 15rem;
+    margin-left: 0rem;
     border: 1px solid black;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     color: rgb(102, 102, 102);
     text-decoration: none;
+    min-width: 28%;
   }
 
   .sign-in:hover {
@@ -135,7 +137,7 @@
 
   .right-arrow {
     max-width: 4rem;
-    margin-left: 15rem;
+    margin-right: ;
   }
 
   .savings-p {
@@ -164,7 +166,7 @@
 
   .info-logo {
     max-width: 4.5rem;
-    margin-left: 15rem;
+    margin-right: 5rem;
   }
 
   .tk-classics {

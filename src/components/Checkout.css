@@ -78,14 +78,19 @@
     cursor: pointer;
   }
 
+  .add-to-cart-container {
+    max-width: 100%;
+  }
+
   .add-to-cart-btn {
     background-color: rgba(204, 0, 0);
     color: white;
     font-size: 1.6rem;
     font-weight: bold;
     border: none;
-    padding: 1.3rem 12.5rem;
+    padding: 1.3rem 5rem;
     border-radius: 0.5rem;
+    min-width: 100%;
   }
 
   .add-to-cart-btn:hover {
