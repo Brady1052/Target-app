@@ -53,6 +53,7 @@
 
 .hero-product-img {
   max-width: 74rem;
+  min-width: 74rem;
   margin-left: -6rem;
 }
 .hero-product-img-price-container {
@@ -127,6 +128,7 @@
 
   .hero-product-img {
     max-width: 110%;
+    min-width: 110%;
     margin-left: 0rem;
     margin-top: 5rem;
   }
