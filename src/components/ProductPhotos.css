@@ -23,9 +23,17 @@
   max-height: 13.7rem;
 }
 
+.main-product-img:hover {
+  cursor: pointer;
+}
+
 .second-product-img {
   margin: 0.1rem 3.6rem;
   max-width: 14rem;
+}
+
+.second-product-img:hover {
+  cursor: pointer;
 }
 
 .third-product-img {
@@ -34,9 +42,17 @@
   min-height: 14rem;
 }
 
+.third-product-img:hover {
+  cursor: pointer;
+}
+
 .fourth-product-img {
   margin: 0.3rem 3.6rem;
   max-width: 14rem;
+}
+
+.fourth-product-img:hover {
+  cursor: pointer;
 }
 
 .fifth-product-img {

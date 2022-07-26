@@ -4,6 +4,14 @@
 
 Recreation of target's product page's
 
+## Technologies Used
+
+React, CSS
+
+## Important to Know
+
+All links on the page redirect the user to the original website that is replicated in this app.
+
 ## Link to Deployed Project
 
 https://brady1052.github.io/Target-app/
